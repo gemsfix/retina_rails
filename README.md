@@ -14,6 +14,9 @@
 
 Makes your life easier optimizing an application for retina displays.
 
+### Context
+I forked this gem to fix a deprecation message with `alias_method_chain` on Rails 5 (main project seems to be dead)
+
 ### Still using version 1.0.x?
 
 ---
@@ -42,7 +45,7 @@ Resources
 Installation
 ------------
 
-1. Add `gem 'retina_rails', '~> 2.0.0'` to your Gemfile.
+1. Add `gem 'retina_rails', github: 'gemsfix/retina_rails', branch: 'feature/rails5'` to your Gemfile.
 1. Run `bundle install`.
 
 Migrations
